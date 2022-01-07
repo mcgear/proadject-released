@@ -1,5 +1,5 @@
 import * as React from "react"
-import { PlasmicTextInput } from "./plasmic/proadject_com/PlasmicTextInput"
+import { PlasmicTextInput } from "./plasmic/habistack_com/PlasmicTextInput"
 
 function TextInput_(props, ref) {
   const { plasmicProps } = PlasmicTextInput.useBehavior(props, ref)

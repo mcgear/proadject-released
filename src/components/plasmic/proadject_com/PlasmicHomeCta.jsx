@@ -9,7 +9,6 @@
 // Plasmic Project: jwrTbggFxYGg2J5Z7e7kjr
 // Component: zKOyIPbNoEM
 import * as React from "react"
-import * as p from "@plasmicapp/react-web"
 import {
   hasVariant,
   classNames,
@@ -17,13 +16,10 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants,
 } from "@plasmicapp/react-web"
-import TextInput from "../../TextInput" // plasmic-import: Af92kW8SHWlh/component
-import Button from "../../Button" // plasmic-import: 58aE5A8cv3Bo/component
 import { useScreenVariants as useScreenVariantspl90GPsIiFl9 } from "./PlasmicGlobalVariant__Screen" // plasmic-import: PL90GPsIiFl9/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css"
 import * as projectcss from "./plasmic_proadject_com.module.css" // plasmic-import: jwrTbggFxYGg2J5Z7e7kjr/projectcss
 import * as sty from "./PlasmicHomeCta.module.css" // plasmic-import: zKOyIPbNoEM/css
-import LogoIcon from "./icons/PlasmicIcon__Logo" // plasmic-import: cIFaNOfJhdmJ/icon
 
 export const PlasmicHomeCta__VariantProps = new Array()
 
@@ -43,86 +39,20 @@ function PlasmicHomeCta__RenderFunc(props) {
       data-plasmic-for-node={forNode}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <p.Stack
-        as={"div"}
-        hasGap={true}
-        className={classNames(projectcss.all, sty.freeBox__rFxGc)}
-      >
-        <div
-          className={classNames(
-            projectcss.all,
-            projectcss.__wab_text,
-            sty.text__oMHlD
-          )}
-        >
-          {"Powering weather applications"}
-        </div>
-
-        <div
-          className={classNames(
-            projectcss.all,
-            projectcss.__wab_text,
-            sty.text__auQh4
-          )}
-        >
-          {hasVariant(globalVariants, "screen", "mobile")
-            ? "Take the argh out of apps.  Release the Krakyn."
-            : "Take the argh out of apps.  Release the Krakyn."}
-        </div>
-
-        <p.Stack
-          as={"div"}
-          hasGap={true}
-          className={classNames(projectcss.all, sty.freeBox__tgtbJ)}
-        >
-          <TextInput
-            data-plasmic-name={"textInput"}
-            data-plasmic-override={overrides.textInput}
-            className={classNames("__wab_instance", sty.textInput)}
-            color={"dark"}
-            placeholder={"Your email..."}
-          />
-
-          <Button
-            data-plasmic-name={"button"}
-            data-plasmic-override={overrides.button}
-            className={classNames("__wab_instance", sty.button)}
-            color={"blue"}
-          >
-            {"Subscribe"}
-          </Button>
-        </p.Stack>
-
-        <div
-          className={classNames(
-            projectcss.all,
-            projectcss.__wab_text,
-            sty.text__p3OtF
-          )}
-        >
-          {"7 days free trial. No credit card required."}
-        </div>
-      </p.Stack>
-
       {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
-        <div className={classNames(projectcss.all, sty.freeBox___62Ccu)}>
-          <LogoIcon
-            data-plasmic-name={"svg"}
-            data-plasmic-override={overrides.svg}
-            className={classNames(projectcss.all, sty.svg)}
-            role={"img"}
-          />
-        </div>
+        <div
+          data-plasmic-name={"freeBox"}
+          data-plasmic-override={overrides.freeBox}
+          className={classNames(projectcss.all, sty.freeBox)}
+        />
       ) : null}
     </div>
   )
 }
 
 const PlasmicDescendants = {
-  root: ["root", "textInput", "textbox", "button", "svg"],
-  textInput: ["textInput", "textbox"],
-  button: ["button"],
-  svg: ["svg"],
+  root: ["root", "freeBox"],
+  freeBox: ["freeBox"],
 }
 
 function makeNodeComponent(nodeName) {
@@ -156,9 +86,7 @@ export const PlasmicHomeCta = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    textInput: makeNodeComponent("textInput"),
-    button: makeNodeComponent("button"),
-    svg: makeNodeComponent("svg"),
+    freeBox: makeNodeComponent("freeBox"),
     // Metadata about props expected for PlasmicHomeCta
     internalVariantProps: PlasmicHomeCta__VariantProps,
     internalArgProps: PlasmicHomeCta__ArgProps,

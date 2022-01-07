@@ -22,7 +22,7 @@ import { useScreenVariants as useScreenVariantspl90GPsIiFl9 } from "./PlasmicGlo
 import "@plasmicapp/react-web/lib/plasmic.css"
 import * as projectcss from "./plasmic_proadject_com.module.css" // plasmic-import: jwrTbggFxYGg2J5Z7e7kjr/projectcss
 import * as sty from "./PlasmicHeader.module.css" // plasmic-import: DxSpBmtY3B_/css
-import LogoIcon from "./icons/PlasmicIcon__Logo" // plasmic-import: cIFaNOfJhdmJ/icon
+import FathymLogoGreensvgIcon from "./icons/PlasmicIcon__FathymLogoGreensvg" // plasmic-import: kgL2Fp74kR/icon
 
 export const PlasmicHeader__VariantProps = new Array()
 
@@ -50,7 +50,7 @@ function PlasmicHeader__RenderFunc(props) {
         href={"/"}
         platform={"gatsby"}
       >
-        <LogoIcon
+        <FathymLogoGreensvgIcon
           data-plasmic-name={"svg"}
           data-plasmic-override={overrides.svg}
           className={classNames(projectcss.all, sty.svg)}

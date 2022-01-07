@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "files",
@@ -31,7 +31,8 @@
       "icons": [],
       "images": [],
       "indirect": true,
-      "codeComponents": []
+      "codeComponents": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "jwrTbggFxYGg2J5Z7e7kjr",
@@ -374,6 +375,16 @@
           "id": "amIuNT3doXxj",
           "name": "SearchsvgIcon",
           "moduleFilePath": "plasmic/proadject_com/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "kgL2Fp74kR",
+          "name": "FathymLogoGreensvgIcon",
+          "moduleFilePath": "plasmic/proadject_com/icons/PlasmicIcon__FathymLogoGreensvg.jsx"
+        },
+        {
+          "id": "1f6r4l5nNC",
+          "name": "FathymLogosvgIcon",
+          "moduleFilePath": "plasmic/proadject_com/icons/PlasmicIcon__FathymLogosvg.jsx"
         }
       ],
       "images": [
@@ -401,9 +412,381 @@
           "id": "3FkD5xmo4vwc",
           "name": "AngryThinky.svg",
           "filePath": "plasmic/proadject_com/images/angryThinkysvg.svg"
+        },
+        {
+          "id": "NLPp3EAdz",
+          "name": "RedThinky.png",
+          "filePath": "plasmic/proadject_com/images/redThinkypng.png"
         }
       ],
       "indirect": false,
+      "codeComponents": []
+    },
+    {
+      "projectId": "hhYAirYt8bU9TEjNgFzExf",
+      "projectApiToken": "OLSI0k8RDdFhKcQ8KPhciRZbWo5cKMiRsx0ZkDUkxfzuFk5fhemNRNMy7WdQM0iiAJjhedMZxDtFbDtMhkg",
+      "projectName": "Habistack.com",
+      "version": "5.0.0",
+      "cssFilePath": "plasmic/habistack_com/plasmic_habistack_com.module.css",
+      "components": [
+        {
+          "id": "aZ_J2rMYPrG",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicHeader.jsx",
+          "importSpec": {
+            "modulePath": "Header.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "tnj0d_eW4Ts",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "05tCG29nEfK",
+          "name": "FeatureCard",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicFeatureCard.jsx",
+          "importSpec": {
+            "modulePath": "FeatureCard.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicFeatureCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "qhKuHWsMEEf",
+          "name": "HomeCta",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicHomeCta.jsx",
+          "importSpec": {
+            "modulePath": "HomeCta.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicHomeCta.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "AoqJDesXt_v",
+          "name": "IconLink",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicIconLink.jsx",
+          "importSpec": {
+            "modulePath": "IconLink.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicIconLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "uXYHN1Smh9Q",
+          "name": "Testimonial",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicTestimonial.jsx",
+          "importSpec": {
+            "modulePath": "Testimonial.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicTestimonial.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "qfSRxjwcOo8K",
+          "name": "Avatar",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicAvatar.jsx",
+          "importSpec": {
+            "modulePath": "Avatar.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicAvatar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "c2y18IUjy7BA",
+          "name": "BaseCard",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicBaseCard.jsx",
+          "importSpec": {
+            "modulePath": "BaseCard.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicBaseCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "pqYw2YQIp2Bj",
+          "name": "Plan",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicPlan.jsx",
+          "importSpec": {
+            "modulePath": "Plan.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicPlan.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "6_bZ4KXsPl5_",
+          "name": "Bullet",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicBullet.jsx",
+          "importSpec": {
+            "modulePath": "Bullet.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicBullet.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "MFvjeHLPw6vA",
+          "name": "Faq",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicFaq.jsx",
+          "importSpec": {
+            "modulePath": "Faq.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicFaq.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "xpx1dd3WX7GW",
+          "name": "Section",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicSection.jsx",
+          "importSpec": {
+            "modulePath": "Section.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Tz4a3lVI6CGf",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "mt8AYmIOquuF",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "m8MF3DD_Un",
+          "name": "HabistackFooter",
+          "type": "managed",
+          "projectId": "hhYAirYt8bU9TEjNgFzExf",
+          "renderModuleFilePath": "plasmic/habistack_com/PlasmicHabistackFooter.jsx",
+          "importSpec": {
+            "modulePath": "HabistackFooter.jsx"
+          },
+          "cssFilePath": "plasmic/habistack_com/PlasmicHabistackFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "t5eU7xypoObb",
+          "name": "TwitterIconIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__TwitterIcon.jsx"
+        },
+        {
+          "id": "Fcdq1Ejy4XxN",
+          "name": "GithubIconIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__GithubIcon.jsx"
+        },
+        {
+          "id": "hdLeuFLK2xdT",
+          "name": "FacebookIconIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__FacebookIcon.jsx"
+        },
+        {
+          "id": "w2kNC3zTGXKb",
+          "name": "FacebookLogoIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__FacebookLogo.jsx"
+        },
+        {
+          "id": "IBdwO7K4X226",
+          "name": "LogoIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__Logo.jsx"
+        },
+        {
+          "id": "m7PScUG8ICOk",
+          "name": "SphereIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__Sphere.jsx"
+        },
+        {
+          "id": "f5W8LuYqDyl2",
+          "name": "QuoteDashesIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__QuoteDashes.jsx"
+        },
+        {
+          "id": "ZvTtjxYoOaFi",
+          "name": "TinderLogoIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__TinderLogo.jsx"
+        },
+        {
+          "id": "Ow2lAYtI17fS",
+          "name": "AirbnbLogoIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__AirbnbLogo.jsx"
+        },
+        {
+          "id": "UYcqQCUG5aJu",
+          "name": "HubspotLogoIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__HubspotLogo.jsx"
+        },
+        {
+          "id": "_SP557JjCvZu",
+          "name": "AmazonLogoIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__AmazonLogo.jsx"
+        },
+        {
+          "id": "8urSW3zsoVIf",
+          "name": "SwapIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__Swap.jsx"
+        },
+        {
+          "id": "hZBvhC7zZTr0",
+          "name": "SlotIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__Slot.jsx"
+        },
+        {
+          "id": "sRQ2cmFxpNjv",
+          "name": "CycleIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__Cycle.jsx"
+        },
+        {
+          "id": "aos4xEgRa28Q",
+          "name": "HammerIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__Hammer.jsx"
+        },
+        {
+          "id": "TFB9T0WIMP-S",
+          "name": "PencilIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__Pencil.jsx"
+        },
+        {
+          "id": "fR_M5TpK_IAp",
+          "name": "LightningIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__Lightning.jsx"
+        },
+        {
+          "id": "wruYgJ8FoWVC",
+          "name": "RightArrowIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__RightArrow.jsx"
+        },
+        {
+          "id": "ypOUYPtByDL1",
+          "name": "Done24Pxsvg2Icon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__Done24Pxsvg2.jsx"
+        },
+        {
+          "id": "fRG7o45wBFgn",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "5jC4HENzcXyn",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "234Oqlix5xbb",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "DxCDUHw3i3",
+          "name": "FathymLogoGreensvgIcon",
+          "moduleFilePath": "plasmic/habistack_com/icons/PlasmicIcon__FathymLogoGreensvg.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "fAgLY6WquT-z",
+          "name": "profilepic",
+          "filePath": "plasmic/habistack_com/images/profilepic.png"
+        },
+        {
+          "id": "lp2qLvqQwI4a",
+          "name": "task",
+          "filePath": "plasmic/habistack_com/images/task.png"
+        },
+        {
+          "id": "SXmCoH9h7lB8",
+          "name": "simple-project",
+          "filePath": "plasmic/habistack_com/images/simpleProject.png"
+        },
+        {
+          "id": "8lFbuFMYYvuX",
+          "name": "hero-image",
+          "filePath": "plasmic/habistack_com/images/heroImage.png"
+        },
+        {
+          "id": "govABzEk4CkZ",
+          "name": "AngryThinky.svg",
+          "filePath": "plasmic/habistack_com/images/angryThinkysvg.svg"
+        },
+        {
+          "id": "cwF7lym__",
+          "name": "MicrosoftTeams-image (7).png",
+          "filePath": "plasmic/habistack_com/images/microsoftTeamsImage7Png.png"
+        },
+        {
+          "id": "Ov2qEcSmL",
+          "name": "instagram-icon",
+          "filePath": "plasmic/habistack_com/images/instagramIcon.png"
+        },
+        {
+          "id": "Yzobj_f3_",
+          "name": "copyright-icon",
+          "filePath": "plasmic/habistack_com/images/copyrightIcon.png"
+        }
+      ],
+      "indirect": true,
       "codeComponents": []
     }
   ],
@@ -414,6 +797,12 @@
         "name": "Screen",
         "projectId": "jwrTbggFxYGg2J5Z7e7kjr",
         "contextFilePath": "plasmic/proadject_com/PlasmicGlobalVariant__Screen.jsx"
+      },
+      {
+        "id": "01lSGjai6pPg",
+        "name": "Screen",
+        "projectId": "hhYAirYt8bU9TEjNgFzExf",
+        "contextFilePath": "plasmic/habistack_com/PlasmicGlobalVariant__Screen.jsx"
       }
     ]
   },

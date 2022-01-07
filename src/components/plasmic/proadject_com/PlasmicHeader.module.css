@@ -17,9 +17,10 @@
 }
 .svg {
   object-fit: cover;
-  width: 48px;
+  width: 100px;
   height: 48px;
   color: #fd0505;
+  padding-right: 0px;
   flex-shrink: 0;
 }
 .freeBox {

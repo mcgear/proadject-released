@@ -24,6 +24,7 @@ import FeatureCard from "../../FeatureCard" // plasmic-import: HbqNPS3xXHM/compo
 import Testimonial from "../../Testimonial" // plasmic-import: FS2pAOgnbU-/component
 import HomeCta from "../../HomeCta" // plasmic-import: zKOyIPbNoEM/component
 import Footer from "../../Footer" // plasmic-import: FHue2TrcCQx/component
+import HabistackFooter from "../../HabistackFooter" // plasmic-import: m8MF3DD_Un/component
 import { useScreenVariants as useScreenVariantspl90GPsIiFl9 } from "./PlasmicGlobalVariant__Screen" // plasmic-import: PL90GPsIiFl9/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css"
 import * as projectcss from "./plasmic_proadject_com.module.css" // plasmic-import: jwrTbggFxYGg2J5Z7e7kjr/projectcss
@@ -40,7 +41,7 @@ import TinderLogoIcon from "./icons/PlasmicIcon__TinderLogo" // plasmic-import: 
 import AirbnbLogoIcon from "./icons/PlasmicIcon__AirbnbLogo" // plasmic-import: 1Evu_4NkILiJ/icon
 import HubspotLogoIcon from "./icons/PlasmicIcon__HubspotLogo" // plasmic-import: dV8ngnxqDhJT/icon
 import AmazonLogoIcon from "./icons/PlasmicIcon__AmazonLogo" // plasmic-import: Lf6YKEQZOIA1/icon
-import angryThinkysvg3FkD5Xmo4Vwc from "./images/angryThinkysvg.svg" // plasmic-import: 3FkD5xmo4vwc/picture
+import redThinkypngNlPp3EAdz from "./images/redThinkypng.png" // plasmic-import: NLPp3EAdz/picture
 import simpleProjectPdtkuo9SfnV3 from "./images/simpleProject.png" // plasmic-import: PDTKUO9SfnV3/picture
 
 export const PlasmicHome__VariantProps = new Array()
@@ -181,15 +182,15 @@ function PlasmicHome__RenderFunc(props) {
                   className={classNames(sty.img__yZAq9)}
                   displayHeight={"100%"}
                   displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
+                  displayMaxWidth={"632px"}
                   displayMinHeight={"0"}
                   displayMinWidth={"0"}
                   displayWidth={"100%"}
                   src={{
-                    src: angryThinkysvg3FkD5Xmo4Vwc,
-                    fullWidth: 150,
-                    fullHeight: 150,
-                    aspectRatio: 1,
+                    src: redThinkypngNlPp3EAdz,
+                    fullWidth: 1768,
+                    fullHeight: 1722,
+                    aspectRatio: undefined,
                   }}
                 />
               </div>
@@ -518,6 +519,12 @@ function PlasmicHome__RenderFunc(props) {
               className={classNames("__wab_instance", sty.footer)}
             />
           ) : null}
+
+          <HabistackFooter
+            data-plasmic-name={"habistackFooter"}
+            data-plasmic-override={overrides.habistackFooter}
+            className={classNames("__wab_instance", sty.habistackFooter)}
+          />
         </p.Stack>
       </div>
     </React.Fragment>
@@ -536,6 +543,7 @@ const PlasmicDescendants = {
     "testimonial",
     "homeCta",
     "footer",
+    "habistackFooter",
   ],
 
   header: ["header"],
@@ -547,6 +555,7 @@ const PlasmicDescendants = {
   testimonial: ["testimonial"],
   homeCta: ["homeCta"],
   footer: ["footer"],
+  habistackFooter: ["habistackFooter"],
 }
 
 function makeNodeComponent(nodeName) {
@@ -589,6 +598,7 @@ export const PlasmicHome = Object.assign(
     testimonial: makeNodeComponent("testimonial"),
     homeCta: makeNodeComponent("homeCta"),
     footer: makeNodeComponent("footer"),
+    habistackFooter: makeNodeComponent("habistackFooter"),
     // Metadata about props expected for PlasmicHome
     internalVariantProps: PlasmicHome__VariantProps,
     internalArgProps: PlasmicHome__ArgProps,

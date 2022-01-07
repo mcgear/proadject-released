@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C700%3B0%2C800&family=Encode+Sans+Semi+Condensed%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C700%3B0%2C800&display=swap");
 .all {
   display: block;
   white-space: inherit;
@@ -16,6 +17,10 @@
 .img {
   composes: all;
   display: inline-block;
+}
+.li {
+  composes: all;
+  display: list-item;
 }
 .span {
   composes: all;
@@ -141,10 +146,6 @@
   composes: all;
   padding: 2px 6px;
 }
-.li {
-  composes: all;
-  list-style-type: none;
-}
 .plasmic_default__component_wrapper {
   display: grid;
 }
@@ -160,4 +161,16 @@
 }
 .plasmic_page_wrapper > * {
   height: auto !important;
+}
+.root_reset {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  color: #666666 /* plasmic-token: qEtqsP0-AcEg */;
+  text-align: left;
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  white-space: pre-wrap;
 }
